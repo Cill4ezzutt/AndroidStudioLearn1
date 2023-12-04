@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="608de55f-864a-485d-ac0f-d8fab1989528" name="Default Changelist" comment="" />
+    <list default="true" id="608de55f-864a-485d-ac0f-d8fab1989528" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Character.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boolean.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BelajarKolin/META-INF/BelajarKolin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarKolin/META-INF/BelajarKolin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BelajarKolin/NumberKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarKolin/NumberKt.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +23,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2YyuR7hUUPnHDfY2G370ZliTDeU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,11 +37,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Kotlin.NumberKt">
+  <component name="RunManager" selected="Kotlin.StringKt">
+    <configuration name="CharacterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="BelajarKolin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="CharacterKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="BelajarKolin" />
       <option name="VM_PARAMETERS" />
@@ -53,8 +82,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="BelajarKolin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="StringKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StringKt" />
+        <item itemvalue="Kotlin.CharacterKt" />
         <item itemvalue="Kotlin.NumberKt" />
         <item itemvalue="Kotlin.HelloWorldKt" />
       </list>
@@ -74,25 +118,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="848" height="234" key="GridCell.Tab.0.bottom" timestamp="1701516792458">
+    <state width="850" height="234" key="GridCell.Tab.0.bottom" timestamp="1701681676088">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="848" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1701516792458" />
-    <state width="848" height="234" key="GridCell.Tab.0.center" timestamp="1701516792458">
+    <state width="850" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1701681676088" />
+    <state width="850" height="234" key="GridCell.Tab.0.center" timestamp="1701681676088">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="848" height="234" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1701516792458" />
-    <state width="848" height="234" key="GridCell.Tab.0.left" timestamp="1701516792458">
+    <state width="850" height="234" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1701681676088" />
+    <state width="850" height="234" key="GridCell.Tab.0.left" timestamp="1701681676087">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="848" height="234" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1701516792458" />
-    <state width="848" height="234" key="GridCell.Tab.0.right" timestamp="1701516792458">
+    <state width="850" height="234" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1701681676087" />
+    <state width="850" height="234" key="GridCell.Tab.0.right" timestamp="1701681676088">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="848" height="234" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1701516792458" />
-    <state x="1089" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1701679426439">
+    <state width="850" height="234" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1701681676088" />
+    <state x="1089" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1701681126101">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1089" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1701679426439" />
+    <state x="1089" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1701681126101" />
   </component>
 </project>
