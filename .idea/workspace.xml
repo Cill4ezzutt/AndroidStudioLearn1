@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="608de55f-864a-485d-ac0f-d8fab1989528" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Break_Continue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ForLoop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/While.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionReturnType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitReturningFunction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BelajarKolin/META-INF/BelajarKolin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BelajarKolin/META-INF/BelajarKolin.kotlin_module" afterDir="false" />
@@ -40,7 +40,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Kotlin.Break_ContinueKt">
+  <component name="RunManager" selected="Kotlin.FunctionReturnTypeKt">
     <configuration name="Break_ContinueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="BelajarKolin" />
       <option name="VM_PARAMETERS" />
@@ -54,40 +54,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="BelajarKolin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ForLoopKt" />
+      <option name="MAIN_CLASS_NAME" value="FunctionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionReturnTypeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="BelajarKolin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="IfExpressionKt" />
+      <option name="MAIN_CLASS_NAME" value="FunctionReturnTypeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitReturningFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="BelajarKolin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="WhenKt" />
+      <option name="MAIN_CLASS_NAME" value="UnitReturningFunctionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FunctionReturnTypeKt" />
+        <item itemvalue="Kotlin.UnitReturningFunctionKt" />
+        <item itemvalue="Kotlin.FunctionKt" />
         <item itemvalue="Kotlin.Break_ContinueKt" />
         <item itemvalue="Kotlin.WhileKt" />
-        <item itemvalue="Kotlin.ForLoopKt" />
-        <item itemvalue="Kotlin.WhenKt" />
-        <item itemvalue="Kotlin.IfExpressionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -130,26 +130,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="850" height="234" key="GridCell.Tab.0.bottom" timestamp="1702448664883">
+    <state width="857" height="234" key="GridCell.Tab.0.bottom" timestamp="1702477585802">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="850" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1702448664883" />
-    <state width="850" height="234" key="GridCell.Tab.0.center" timestamp="1702448664883">
+    <state width="857" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1702477585802" />
+    <state width="857" height="234" key="GridCell.Tab.0.center" timestamp="1702477585802">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="850" height="234" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1702448664883" />
-    <state width="850" height="234" key="GridCell.Tab.0.left" timestamp="1702448664883">
+    <state width="857" height="234" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1702477585802" />
+    <state width="857" height="234" key="GridCell.Tab.0.left" timestamp="1702477585802">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="850" height="234" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1702448664883" />
-    <state width="850" height="234" key="GridCell.Tab.0.right" timestamp="1702448664883">
+    <state width="857" height="234" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1702477585802" />
+    <state width="857" height="234" key="GridCell.Tab.0.right" timestamp="1702477585802">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="850" height="234" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1702448664883" />
-    <state x="1089" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1702448452439">
+    <state width="857" height="234" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1702477585802" />
+    <state x="1089" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1702477653318">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="1089" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1702448452439" />
+    <state x="1089" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1702477653318" />
     <state x="1049" y="245" key="run.anything.popup" timestamp="1701684594026">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

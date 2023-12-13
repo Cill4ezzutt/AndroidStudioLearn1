@@ -282,3 +282,75 @@ fun main() {
 
 }
 ```
+
+# **FUNCTION**
+```aidl
+
+fun helloWorld(){
+    println("Hello World")
+    println("Selamat Belajar")
+}
+fun sayHello(name:String, age:Int) {
+    println("Hello $name")
+    println("Saya Berumur $age")
+
+}
+fun hello(firstName:String, lastName:String? = null){
+    if (lastName==null ){
+        println("Hello $firstName ")
+    } else {
+        println("Hello $firstName $lastName")
+    }
+}
+fun fullName(firstN:String, middleN:String, lastN:String){
+    println("Hello $firstN $middleN $lastN")
+}
+
+
+fun main() {
+    helloWorld()
+    sayHello("Eza", 22)
+    sayHello("Cilla", 20)
+    hello("Eza")
+    hello("Eza", "Cilla")
+
+    fullName("Eza", "For", "Cilla")
+    fullName(lastN = "Cilla",middleN = "For",firstN = "Eza")
+}
+```
+
+## **UNIT RETURNING FUNCTION**
+```aidl
+fun printHello(): Unit {
+    println("Hello")
+}
+
+fun main() {
+    printHello()
+
+}
+```
+## **FUNCTION RETURN TYPE**
+```aidl
+fun jumlahkan(a:Int, b:Int): Int {
+    val total = a + b
+    return total
+}
+fun bagi(a:Int,b: Int):Int {
+    if(b==0) {
+        return  0
+    }
+    val result = a/b
+    return result
+}
+fun main() {
+    println(jumlahkan(10,10))
+    println(jumlahkan(25,50))
+
+    val result = jumlahkan(200,50)
+    println(result)
+
+    println(bagi(100,10))
+    println(bagi(100,0))
+}
+```
