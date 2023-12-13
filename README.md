@@ -211,3 +211,74 @@ val nilaiUjian = 91
         else -> println("Nice Try")
     }
 ```
+
+## **For Loop**
+
+```aidl
+fun main() {
+    var array = arrayOf("Eza", "Cilla", "Abi", "Furqon", "Ezut", "Cutemi")
+    var total = 0
+
+    for (name in array) {
+        println(name)
+        total++
+
+    }
+    println("Total Perulangan = $total")
+
+    for (i in 0..100 step 2) {
+        println(i)
+    }
+    for (j in 100 downTo 0 step 3) {
+        println(j)
+    }
+    val ukuranArray = array.size - 1
+    for (x in 0..ukuranArray) {
+        println("index $x = ${array.get(x)}")
+    }
+}
+```
+
+## **While & Do While Loop**
+
+```aidl
+#while
+fun main() {
+    var i = 0
+
+    while ( i < 10) {
+        println("Perulangan $i")
+        i++
+    }
+    println("Pengulangan Selesai")
+}
+#doWhile
+var j = 5
+    do {
+        println("Perulangan ke $j")
+        j++
+    } while ( j < 10)
+}
+```
+## **Break & Continue**
+```aidl
+fun main() {
+
+    var i = 0
+    while (true) {
+        println("Hello ke $i")
+        i++
+        if (i> 100) {
+            break
+        }
+    }
+
+    for (i in 1..100) {
+        if (i % 2 == 0) {
+            continue
+        }
+        println("Angka $i")
+    }
+
+}
+```
