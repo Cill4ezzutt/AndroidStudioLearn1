@@ -2,7 +2,7 @@
 
 ## **TIPE DATA NUMBER**
 
-```$xslt
+```aidl
 fun main() {
     var age: Byte = 30
     var height: Int = 17
@@ -39,10 +39,9 @@ fun main() {
 
 ## **TIPE DATA KARAKTER**
 
-``
+```aidl
 var char1 : Char = 'E'
-``
-
+```
 isinya hanya 1 karakter
 
 ## **TIPE DATA BOLEAN**
@@ -61,7 +60,7 @@ var salah: Boolean = false
 Representasi 
 tanda petik 2 satu baris
 tanda petik 3 untuk beberapa baris
-``
+```aidl
 fun main() {
     var firstName: String = "Maulana"
     var lastName: String = "Reza"
@@ -74,52 +73,53 @@ Country Indonesia"""
     println(fullName)
     println(addres)
 }
-``
+```
 - String Trim Margin **.trimMargin()**
 
-``
+```aidl
 var addres: String = """ |Street not yet done,
 |province jawabarat,
 |Country Indonesia""".trimMargin()
-``
+```
 
 - String template **${isi expresi}**
-``
+```aidl
  var full: String = "$firstName $lastName $addres"
-``
+```
 
-``
+```aidl
 var desc: String = "$full length = ${full.length}"
-``
+```
 
 ## **VARIABLE**
 
-``
+```aidl
 val/var namaVarible: TipeData = data
-``
+```
 
 - Mutabble (Bisa diubah) kata kunci **var**
 
+```aidl
 var name: String = "Eza"
-
+```
 - Immutable (Tida bisa diubah) Kata Kunci **val**
 
-``
+```aidl
 val name1 = "cila"
-``
+```
 
 - Nullabel
 
-``
+```aidl
 var angka: Int? = 5
     angka = null
     println(angka)
-``
+```
 
 - Variable Constant
 
 
-````$xslt
+```aidl
 const val APP = "Belajar Kotlin"
 const val VER = "0.0.1"
 
@@ -129,7 +129,7 @@ fun main() {
     val name1 = "cila"
     val age = 30
 
-````
+```
 ## **TYPE DATA ARRAY**
 ````$xslt
 fun main() {
@@ -140,7 +140,7 @@ fun main() {
 
 ## **IF , ELSE & else if Expression**
 
-```$xslt
+```aidl
 fun main() {
     val examValue = 80
     if (examValue > 80) {
@@ -154,7 +154,7 @@ fun main() {
 ```
 ## **When Expression**
 
-```$xslt
+```aidl
 fun main() {
     val finalExam = "A"
     when (finalExam) {
@@ -169,7 +169,7 @@ fun main() {
 ```
 ## **When Expression Multiple Option**
 
-```$xslt
+```aidl
 val nilai = "A"
     when(nilai){
         "A", "B","C", "D" -> {
@@ -182,7 +182,7 @@ val nilai = "A"
 
 ## **When Expression in & !in**
 
-```$xslt
+```aidl
 val num = 1
     val passValue = arrayOf(1,2,3)
     when (num) {
@@ -192,7 +192,7 @@ val num = 1
 ```
 ## **When Expression is & !is**
 
-```$xslt
+```aidl
 val num = 1
     val passValue = arrayOf(1,2,3)
     when (num) {
@@ -200,7 +200,7 @@ val num = 1
         !is passValue -> println("not string")
     }
 ```
-## ** Final When**
+## **Final When**
 
 ```$xslt
 val nilaiUjian = 91
@@ -354,3 +354,57 @@ fun main() {
     println(bagi(100,0))
 }
 ```
+## **SINGLE EXPRESSION FUNCTION**
+```aidl
+fun kaliDua(a:Int): Int = a * 2
+fun helo(name:String): Unit = println("Hello $name")
+fun main() {
+    println(kaliDua(10))
+    hello("Eza")
+}
+```
+## **Function Varargs Parameter**
+```aidl
+fun hitungTotal(name:String, vararg values: Int): Int {
+    var total = 0
+    for (value in values) {
+        total += value
+    }
+    return total;
+}
+fun main() {
+    val result = hitungTotal("Eza", 10,10,10,10,10,10)
+    println(result)
+}
+```
+## **EXTENSION FUNCTION**
+
+```aidl
+fun String.hello(): String = "Hello $this"
+fun String.printHello(): Unit = println("Hello $this")
+fun main() {
+    val name =  "Eza"
+    println(name.hello())
+    name.printHello()
+    "EZA EZA".printHello()
+
+
+}
+```
+## **FUNCTION INFIX NOTATION**
+````aidl
+infix fun String.to(type: String): String {
+    if(type == "UP"){
+        return this.toUpperCase()
+    } else {
+        return this.toLowerCase()
+    }
+}
+
+fun main() {
+    val result = "Eza" to "UP"
+    println(result)
+}
+````
+## **FUNCTION SCOPE**
+
